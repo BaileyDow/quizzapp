@@ -1,0 +1,49 @@
+/* Your styles should be mobile-first and responsive */
+
+/** 
+  * If you are unclear on how to utilize a mobile-first, responsive technique to write your CSS, here is an example: 
+  *
+  * https://github.com/andreacardybailey/responsive_example/blob/master/styles/responsive-base.css 
+  *
+*/
+@font-face{
+  font-family: mario;
+  src: url(/files/SuperMario256.ttf);
+}
+body{
+  text-align: center;
+  background-image: url(/files/pikachu-gmax.jpg);
+  background-repeat: no-repeat;
+}
+
+.mainPage{
+  text-align: center;
+  border: 3px solid black;
+  margin: 30px;
+  padding: 10px;
+  background-color: rgb(216, 63, 101);
+}
+.question-screen{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+ul{
+  list-style: none;
+ text-align: left;
+}
+
+header{
+  font-family: mario;
+  font-size: x-large;
+}
+#A, #B, #C, #D{
+  align-items: center;
+}
+
+
+@media all and (min-width: 800px){
+  
+}
+/*hello*/

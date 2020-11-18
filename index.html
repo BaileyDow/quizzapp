@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Quiz App</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet"
+    type="text/css" />
+  <link href="app.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body id='mainBody'>
+  <!--<header>
+    <h1>Bailey's Pokemon Quiz</h1>
+  </header>-->
+  <main>
+     <!--<div class='mainPage'>
+     <form>
+        <h2>Start Quiz</h2>
+        <button id='startQuiz' type='submit'>Begin</button>
+      </form>
+    </div>
+    <div class='startScreen'></div>
+    <hr>
+    <div class='questionPage'>
+      <form class='question-screen'>
+        <h2>Which two new typings were added in generation 2 of Pokemon?</h2>
+        <ul>
+          <li>
+            <input type='radio' id='A' name='answer' value='A' 'required'>
+            <label for='A'>Dark, Fairy</label>
+          </li>
+          <li>
+            <input type='radio' id='B' name='answer' value='B'>
+            <label for='B'>Fairy, Steel</label>
+          </li>
+          <li>
+            <input type='radio' id='C' name='answer'  value='C'>
+            <label for='C'>Dark, Steel</label>
+          </li>
+          <li>
+            <input type='radio' id='D' name='answer' value='D'>
+            <label for='D'>Steel, Ice</label>
+          </li>
+          <button id='submitAnswer' type='submit'>Submit Answer</button>
+
+          <form class='feedbackCorrect' id='feedbackCorrect'>
+            <h2>Congrats!!!</h2>
+            <p>You got it right!</p>
+            <button type='button' id='nextQuestion'>Next</button>
+          </form>
+          <form class='feedbackIncorrect' id='feedbackIncorrect'>
+            <h2>Uh Oh!</h2>
+            <p>You got it wrong! The correct answer is ?</p>
+            <button type='button' id='nextQuestion'>Next</button>
+          </form>
+    </div>
+
+    <hr>
+    <div class='questionPage'>
+
+      <form class='question-screen'>
+        <h2>How many Gym badges do you need to face the elite four?</h2>
+        <ul>
+          <li>
+            <input type='radio' id='A' name='answer' value='A' 'required'>
+            <label for='A'>10</label>
+          </li>
+          <li>
+            <input type='radio' id='B' name='answer' value='B'>
+            <label for='B'>8</label>
+          </li>
+          <li>
+            <input type='radio' id='C' name='answer' value='C'>
+            <label for='C'>12</label>
+          </li>
+          <li>
+            <input type='radio' id='D' name='answer' value='D'>
+            <label for='D'>7</label>
+          </li>
+          <button id='submitAnswer' type='submit'>Submit Answer</button>
+
+
+          <form class='feedbackCorrect' id='feedbackCorrect'>
+            <h2>Congrats!!!</h2>
+            <p>You got it right!</p>
+            <button type='button' id='nextQuestion'>Next</button>
+          </form>
+          <form class='feedbackIncorrect' id='feedbackIncorrect'>
+            <h2>Uh Oh!</h2>
+            <p>You got it wrong! The correct answer is ?</p>
+            <button type='button' id='nextQuestion'>Next</button>
+          </form>
+    </div>
+
+    <hr>
+    <div class='questionPage'>
+
+
+      <form class='question-screen'>
+        <h2>How many times weak is a steel/grass type pokemon to a fire type move?</h2>
+        <ul>
+          <li>
+            <input type='radio' id='A' name='answer' value='A' 'required'>
+            <label for='A'>x4</label>
+          </li>
+          <li>
+            <input type='radio' id='B' name='answer' value='B'>
+            <label for='B'>x8</label>
+          </li>
+          <li>
+            <input type='radio' id='C' name='answer' value='C'>
+            <label for='C'>x10</label>
+          </li>
+          <li>
+            <input type='radio' id='D' name='answer' value='D'>
+            <label for='D'>x2</label>
+          </li>
+          <button id='submitAnswer' type='submit'>Submit Answer</button>
+
+
+          <form class='feedbackCorrect' id='feedbackCorrect'>
+            <h2>Congrats!!!</h2>
+            <p>You got it right!</p>
+            <button type='button' id='nextQuestion'>Next</button>
+          </form>
+          <form class='feedbackIncorrect' id='feedbackIncorrect'>
+            <h2>Uh Oh!</h2>
+            <p>You got it wrong! The correct answer is ?</p>
+            <button type='button' id='nextQuestion'>Next</button>
+          </form>
+    </div>
+
+    <hr>
+    <div class='questionPage'>
+
+
+      <form class='question-screen'>
+        <h2>In which region is Gen 1 based in?</h2>
+        <ul>
+          <li>
+            <input type='radio' id='A' name='answer' value='A' 'required'>
+            <label for='A'>Sinnoh</label>
+          </li>
+          <li>
+            <input type='radio' id='B' name='answer' value='B'>
+            <label for='B'>Johto</label>
+          </li>
+          <li>
+            <input type='radio' id='C' name='answer' value='C'>
+            <label for='C'>Galar</label>
+          </li>
+          <li>
+            <input type='radio' id='D' name='answer' value='D'>
+            <label for='D'>Kanto</label>
+          </li>
+          <button id='submitAnswer' type='submit'>Submit Answer</button>
+
+          <form class='feedbackCorrect' id='feedbackCorrect'>
+            <h2>Congrats!!!</h2>
+            <p>You got it right!</p>
+            <button type='button' id='nextQuestion'>Next</button>
+          </form>
+          <form class='feedbackIncorrect' id='feedbackIncorrect'>
+            <h2>Uh Oh!</h2>
+            <p>You got it wrong! The correct answer is ?</p>
+            <button type='button' id='nextQuestion'>Next</button>
+          </form>
+    </div>
+
+    <hr>
+    <div class='questionPage'>
+
+
+      <form class='question-screen'>
+        <h2>How many evolution paths does Eevee have in gen 8?</h2>
+        <ul>
+          <li>
+            <input type='radio' id='A' name='answer' value='A' 'required'>
+            <label for='A'>8</label>
+          </li>
+          <li>
+            <input type='radio' id='B' name='answer' value='B'>
+            <label for='B'>7</label>
+          </li>
+          <li>
+            <input type='radio' id='C' name='answer' value='C'>
+            <label for='C'>3</label>
+          </li>
+          <li>
+            <input type='radio' id='D' name='answer' value='D'>
+            <label for='D'>5</label>
+          </li>
+          <button id='submitAnswer' type='submit'>Submit Answer</button>
+
+          <form class='feedbackCorrect' id='feedbackCorrect'>
+            <h2>Congrats!!!</h2>
+            <p>You got it right!</p>
+            <button type='button' id='nextQuestion'>Next</button>
+          </form>
+          <form class='feedbackIncorrect' id='feedbackIncorrect'>
+            <h2>Uh Oh!</h2>
+            <p>You got it wrong! The correct answer is ?</p>
+            <button type='button' id='nextQuestion'>Next</button>
+          </form>
+    </div>
+
+
+    <hr>
+    <div class='resultsPage'>
+      <form class="start-screen">
+        <h2>Want to try again?</h2>
+        <p>Your score was: ? out of 5</p>
+        <button type="submit">Try Again</button>
+      </form>
+    </div>-->
+
+  </main>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.js" crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
